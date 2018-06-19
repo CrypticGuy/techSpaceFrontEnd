@@ -19,7 +19,8 @@ html, body {
     width: 100%;
     padding: 30px;
     display: flex;
-    background-color: #eee;
+    background: #66f; /* For browsers that do not support gradients */
+    background: linear-gradient(to bottom right,#00C9FF, #92FE9D); /* Standard syntax (must be last) */
     z-index: 1;
     position: relative;
 }
@@ -33,6 +34,9 @@ html, body {
     margin: auto;
     flex-direction: column;
     position: relative;
+    -webkit-box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.3); 
+    -moz-box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.3); 
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.3);              
 }
 
 .outerFrame:after {
@@ -41,7 +45,7 @@ html, body {
     z-index: -1; /* hide shadow behind image */
     -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);                
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);                
     width: 70%; 
     left: 15%; /* one half of the remaining 30% */
     height: 100px;
