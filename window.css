@@ -20,11 +20,8 @@ html, body {
     padding: 30px;
     display: flex;
     background-color: #eee;
-<<<<<<< HEAD
     z-index: 1;
     position: relative;
-=======
->>>>>>> 900ce77e2aa63d394e5e43b4ad4aed8a4252b70e
 }
 
 .outerFrame {
@@ -35,7 +32,6 @@ html, body {
     padding: 25px 25px 25px 25px;
     margin: auto;
     flex-direction: column;
-<<<<<<< HEAD
     position: relative;
 }
 
@@ -50,8 +46,6 @@ html, body {
     left: 15%; /* one half of the remaining 30% */
     height: 100px;
     bottom: 0;
-=======
->>>>>>> 900ce77e2aa63d394e5e43b4ad4aed8a4252b70e
 }
 
 .utilBar {
